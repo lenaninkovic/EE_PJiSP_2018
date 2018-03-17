@@ -9,13 +9,15 @@ početku programa.
 
 int main()
 {
-    int i, n, s = 0;
+    int i, n, s;
 
     printf("Uneti broj n: \n");
     scanf("%d", &n);
 
-    for(i = 1; i <= n; i++)
+    for(i = 1; i <= n; i++) {
         s += i;
+        printf("s = %d\n", s);
+    }
 
     printf("s = %d\n", s);
 
